@@ -18,11 +18,7 @@
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout">
       <item>
-       <widget class="QLabel" name="labelHello">
-        <property name="text">
-         <string>Hello Gui Jeremy</string>
-        </property>
-       </widget>
+       <widget class="QLineEdit" name="lineEditName"/>
       </item>
       <item>
        <widget class="QPushButton" name="pushButton">
@@ -32,6 +28,13 @@
        </widget>
       </item>
      </layout>
+    </item>
+    <item>
+     <widget class="QLabel" name="labelHello">
+      <property name="text">
+       <string>Welcome to Qt development</string>
+      </property>
+     </widget>
     </item>
    </layout>
   </widget>
