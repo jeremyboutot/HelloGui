@@ -15,6 +15,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
+    //get the existing value of the labelHello and assign it to a string variable
     QString newLabel = ui->labelHello->text();
     ui->labelHello->setText(newLabel + " , how are you????");
 }
