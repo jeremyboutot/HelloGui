@@ -12,3 +12,9 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
+
+void MainWindow::on_pushButton_clicked()
+{
+    QString newLabel = ui->labelHello->text();
+    ui->labelHello->setText(newLabel + " , how are you????");
+}
